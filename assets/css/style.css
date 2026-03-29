@@ -487,6 +487,8 @@ padding: 2rem;
 }
 .empresa .row .empresa-img{
     flex: 1 1 32rem;
+
+    width: 100%;
 }
 
 .empresa .row .empresa-img img{
@@ -905,6 +907,16 @@ color: red;
 
 
 /* CELULAR */
+@media screen and (max-width: 768px) {
+    .empresa img{
+        width: 100%;
+    }
+
+}
+
+/* Esse codigo acima peguei fora do curso, ajudou bastante */
+
+
 @Media(max-width:991px){
     html{
     font-size:55%;
